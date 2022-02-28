@@ -1,6 +1,6 @@
 // This repository has no handler! It is dedicated only to presentations and examples of the new features.
 
-const { MessageActionRow } = require('discord.js');
+const { MessageActionRow, MessageSelectMenu } = require('discord.js');
 
 // Example of a button to take a any role.
 if(interaction.isButton()) {
